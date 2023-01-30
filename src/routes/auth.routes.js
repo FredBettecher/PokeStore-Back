@@ -10,4 +10,4 @@ const router = Router();
 router.post("/sign-up", userSchemaValidation, signUp);
 router.post("/sign-in", signInBodyValidation, signIn);
 
-export default router;
+export default router
